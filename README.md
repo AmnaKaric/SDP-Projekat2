@@ -59,6 +59,7 @@ g++ -std=c++17 -O2 client.cpp -o client -lssl -lcrypto -lboost_system -lpthread
 ```
 
 ### 6. Pokretanje testnih skripti
+Za pokretanje testne skripte test.cpp, pokrenuti sljedeće komande:
 ```bash
 g++ -std=c++11 test.cpp -o test -lssl -lcrypto -lpthread
 ./test --catch_system_errors=no
