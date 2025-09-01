@@ -38,8 +38,13 @@ password: Sdp!12345
 ```
 
 ### 4. Kompajliranje servera i klijenta
+1. Kompajliranjer servera:
 ```bash
 g++ -std=c++17 server.cpp -o server -lssl -lcrypto -lmysqlclient -lpthread
+```
+
+2. Kompajliranje klijenta:
+```bash
 g++ -std=c++17 -O2 client.cpp -o client -lssl -lcrypto -lboost_system -lpthread
 ```
 
