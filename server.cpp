@@ -1103,7 +1103,7 @@ else if (cmd == "JOIN_MATCH") {
         }
     }
 
-    // 1) ATOMSKI claim mjesta (FIFO: prvi INSERT koji prođe)
+    // 1) FIFO: prvi INSERT koji prođe
     {
         
         std::ostringstream ins;
@@ -1748,9 +1748,9 @@ int main(int argc, char** argv) {
     try {
         Db db;
 
-        // Two io_contexts: one for TLS command server (blocking per thread), one for async notifier
-        boost::asio::io_context io_cmd;  // used only for accept + sockets handed off to worker threads
-        boost::asio::io_context io_ntf;  // runs async notifier
+        
+        boost::asio::io_context io_cmd;  
+        boost::asio::io_context io_ntf;  
 
         // ---- init notifier ----
         auto notifier = std::make_shared<AsyncNotifier>(io_ntf, ntf_port);
