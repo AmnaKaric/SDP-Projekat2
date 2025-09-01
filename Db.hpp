@@ -1,5 +1,4 @@
 #pragma once
-// Db.hpp - MySQL helper for SDP Project 2
 #include <mysql/mysql.h>
 #include <nlohmann/json.hpp>
 #include <string>
