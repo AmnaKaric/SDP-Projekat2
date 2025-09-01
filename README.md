@@ -1,4 +1,5 @@
-# Projekat 2 - Protokol za upravljanje sistemom sportskih terena
+# Projekat 2 
+## Protokol za upravljanje sistemom sportskih terena
 Ovaj projekat predstavlja sistem za upravljanje sportskim kompleksom. 
 Korisnicima omogućava registraciju, prijavu i rezervaciju termina za različite sportske aktivnosti, 
 praćenje stanja na računu i korištenje programa lojalnosti. 
