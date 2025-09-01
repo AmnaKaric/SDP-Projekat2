@@ -51,7 +51,7 @@ g++ -std=c++17 -O2 client.cpp -o client -lssl -lcrypto -lboost_system -lpthread
 ### 5. Pokretanje
 1. Pokrenuti server:
 ```bash
-./server
+./server 5555
 ```
 2. Pokrenuti klijent i povezati se na server:
 ```bash
