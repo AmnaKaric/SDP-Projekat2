@@ -14,7 +14,6 @@ sa podrškom za sinhronu i asinhronu razmjenu poruka.
 ### 1. Kloniranje repozitorija
 ```bash
 git clone https://github.com/AmnaKaric/SDP-Projekat2
-cd sportski-kompleks
 ```
 
 ### 2. Instalacija zavisnosti
